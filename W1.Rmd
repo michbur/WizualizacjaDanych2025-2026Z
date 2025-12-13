@@ -49,7 +49,7 @@ Michał Burdukiewicz:
  - Stowarzyszenie Wrocławskich Użytkowników R (stwur.pl),
  - Fundacja Why R? (whyr.pl).
 
-Materiały: https://github.com/michbur/WWD2025Z
+Materiały: https://github.com/michbur/WizualizacjaDanych2025-2026Z
 
 Riseup: https://pad.riseup.net/p/WWD-tmp
 
@@ -493,7 +493,7 @@ Każdą wizualizację podsumować jednym największym błędem dopasowania.
  
 Riseup: https://pad.riseup.net/p/WWD-tmp
 
-Plik: [examples.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/michbur/WWD2025Z/main/examples.html).
+Plik: [examples.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/michbur/WizualizacjaDanych2025-2026Z/main/examples.html).
 
 # Błędy w wizualizacjach 
 
@@ -622,7 +622,7 @@ W podgrupach zaproponować poprawiony wykres wykorzystując gramatykę grafiki. 
  
 Riseup: https://pad.riseup.net/p/WWD-tmp
 
-Plik: [examples.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/michbur/WizualizacjaDanych2024-2025L/main/examples.html).
+Plik: [examples.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/michbur/WizualizacjaDanych2025-2026Z/main/examples.html).
 
 # Narzędzia do wizualizacji
 
@@ -845,6 +845,6 @@ Wybór narzędzia do wizualizacji to nie kwestia technologii, ale umiejętności
 
 ## Kontakt
 
-Materiały: https://github.com/michbur/WWD2025Z
+Materiały: https://github.com/michbur/WizualizacjaDanych2025-2026Z
 
 Mail: michalburdukiewicz@gmail.com
