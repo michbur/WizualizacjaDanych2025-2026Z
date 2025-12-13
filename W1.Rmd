@@ -49,7 +49,7 @@ Michał Burdukiewicz:
  - Stowarzyszenie Wrocławskich Użytkowników R (stwur.pl),
  - Fundacja Why R? (whyr.pl).
 
-Materiały: https://github.com/michbur/WizualizacjaDanych2024-2025L
+Materiały: https://github.com/michbur/WWD2025Z
 
 Riseup: https://pad.riseup.net/p/WWD-tmp
 
@@ -188,9 +188,7 @@ Wilkinson, L. (2005). The Grammar of Graphics (New York: Springer-Verlag).
 
 ## Gramatyka grafiki
 
-<img src="https://cristoichkov.github.io/images/ggplot_add.png" width="400px" class="center">
-
-Źródło: https://cristoichkov.github.io/
+<img src="img/gg1.png" width="500px" class="center">
 
 ## Dane
 
@@ -445,6 +443,10 @@ Elementy graficzne nawiązujące do treści wzmacniają przekaz i pozwalają lep
 
 ## Gramatyka grafiki
 
+<img src="img/gg2.png" width="800px" class="center">
+
+## Gramatyka grafiki
+
 | Nazwa                          | Przykłady                                              |
 |--------------------------------|--------------------------------------------------------|
 | Dane (data)                    |                                                        |
@@ -455,6 +457,14 @@ Elementy graficzne nawiązujące do treści wzmacniają przekaz i pozwalają lep
 | Koordynaty (coordinates)       | Kartezjański, polarny                                  |
 | Motyw (theme)                  | Wygląd rysunku                                         |
 
+## Błąd dopasowania
+
+Błąd dopasowania to sytuacja, w której zastosowane elementy gramatyki grafiki nie wspierają porównań wymaganych przez cel wykresu, przez co wizualizacja nie realizuje swojego zadania poznawczego.
+
+Przykłady błędów dopasowania:
+
+ - statystyka agreguje w sposób, który zaciera porównanie wymagane przez cel;
+ - atrybut wizualny koduje zmienną, która nie jest istotna z punktu widzenia celu wykresu.
 
 ## Przykłady
 
@@ -479,9 +489,11 @@ W podgrupach opisać wykresy wykorzystując gramatykę grafiki. Skupiamy się na
  - facetach
  - statystykach.
  
+Każdą wizualizację podsumować jednym największym błędem dopasowania.
+ 
 Riseup: https://pad.riseup.net/p/WWD-tmp
 
-Plik: [examples.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/michbur/WizualizacjaDanych2024-2025L/main/examples.html).
+Plik: [examples.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/michbur/WWD2025Z/main/examples.html).
 
 # Błędy w wizualizacjach 
 
@@ -606,7 +618,7 @@ How to Lie with Statistics, Darrell Huff
 
 ## Zadanie 2
 
-W podgrupach zaproponować poprawiony wykres wykorzystując gramatykę grafiki. 
+W podgrupach zaproponować poprawiony wykres wykorzystując gramatykę grafiki. Przy każdym elemencie gramatyki grafiki wyjaśnić dlaczego wspiera cel wizualizacji.
  
 Riseup: https://pad.riseup.net/p/WWD-tmp
 
@@ -787,6 +799,8 @@ Wykorzystanie sztucznej inteligencji w wizualizacji danych:
  - Julius AI
  - Data Formulator
  - Rose.ai
+ - ChartGPT
+ - [lida](https://microsoft.github.io/lida/).
 
 Problemy: bezpieczeństwo danych, jakość generowanych wykresów, brak kontroli nad wizualizacją.
 
@@ -806,10 +820,13 @@ Problemy:
  - niska jakość powstałych wizualizacji jeśli są bardziej zaawansowane,
  - arbitralność podjętych decyzji bez zrozumienia celu analizy.
  
-
 ## Generowanie kodu za pomocą SI
 
 <img src="./img/ai.png" width="600px">
+
+## Generowanie kodu za pomocą SI
+
+W przypadku wątpliwości - sprawdźmy, czy narzędzie było testowane na zbiorze [NVbench](https://sites.google.com/view/nvbench/). 
 
 ## Praca w grupach
 
@@ -828,7 +845,7 @@ Wybór narzędzia do wizualizacji to nie kwestia technologii, ale umiejętności
 
 ## Kontakt
 
-Materiały: https://github.com/michbur/WizualizacjaDanych2024-2025L
+Materiały: https://github.com/michbur/WWD2025Z
 
 Mail: michalburdukiewicz@gmail.com
 

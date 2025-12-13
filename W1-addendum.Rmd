@@ -188,10 +188,3 @@ Inkscape: darmowy i otwarty edytor grafiki wektorowej.
 Tableau: 
 
  - https://www.tableau.com/products/tableau-ai
-
-NL4DV: 
-
- - https://nl4dv.github.io/nl4dv/
-
-
-
