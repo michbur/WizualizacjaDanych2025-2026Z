@@ -649,7 +649,7 @@ Imperatywne:
 
 ## Języki wizualizacji danych
 
-```{r}
+```{r, echo=FALSE}
 ggplot(cbind(expand.grid(x = c("Imperatywne\n", "Deklaratywne\n"),
                          y = c("Proste do użycia", "Wszechstronne")), 
              software = c("Seaborn", "Bokeh\nR (ggplot2)\nLeaflet\nVega-Lite",  "Matplotlib\nR (base, grid)", "BQPlot\nD3\nPlotly\nVega")),
@@ -723,7 +723,7 @@ grid.points(x = iris[["Sepal.Length"]],
 
 ## Języki wizualizacji danych
 
-```{r}
+```{r,echo=FALSE}
 ggplot(cbind(expand.grid(x = c("Imperatywne\n", "Deklaratywne\n"),
                          y = c("Proste do użycia", "Wszechstronne")), 
              software = c("Seaborn", "Bokeh\nR (ggplot2)\nLeaflet\nVega-Lite",  "Matplotlib\nR (base, grid)", "BQPlot\nD3\nPlotly\nVega")),
@@ -744,6 +744,8 @@ Domyślne ustawienia to wbudowane decyzje o wyglądzie wykresu podjęte przez au
 
 Przykład problemu: domyślne ustawienia etykiet na osi X utrudnia ich odczytanie.
 
+## Domyślne ustawienia narzędzi
+
 ```{r}
 ggplot(mpg, aes(x = model)) +
   geom_bar()
@@ -752,6 +754,8 @@ ggplot(mpg, aes(x = model)) +
 ## Domyślne ustawienia narzędzi
 
 Rozwiązanie problemu: zmiana ustawienia etykiet na osi X.
+
+## Domyślne ustawienia narzędzi
 
 ```{r}
 ggplot(mpg, aes(x = model)) +
